@@ -1,34 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js readme
 
-## Getting Started
+Next.js 프로젝트로 AppleFresh를 간단하게 개발하며 학습할 내용을 기술하겠습니다.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| 주제                                  | 설명                                                       |
+| ------------------------------------- | ---------------------------------------------------------- |
+| 페이지 레이아웃                       | React의 기본 문법을 사용하여 페이지 레이아웃을 만드는 방법 |
+| 여러 페이지                           | 라우팅을 사용하여 여러 페이지를 만드는 방법                |
+| HTML을 반복문으로 줄이기              | map을 사용하여 HTML을 반복하는 방법                        |
+| 이미지 넣는 법                        | 페이지에 이미지를 추가하는 방법                            |
+| client/server 컴포넌트 및 import 문법 | 클라이언트 측 및 서버 측 컴포넌트를 사용하고 가져오는 방법 |
+| props                                 | 컴포넌트에 props를 전달하는 방법                           |
+| useState, onClick                     | useState 후크와 onClick 이벤트 핸들러를 사용하는 방법      |
+| array, object state 변경              | array와 object state를 변경하는 방법                       |
