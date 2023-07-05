@@ -1,17 +1,29 @@
+type ItemType = {
+  item: string;
+};
+
 export default function Cart() {
+  let 장바구니 = ["Tomatoes", "Pasta", "coconut"];
   return (
     <div>
       <h4 className="title">Cart</h4>
-      <div className="cart-item">
-        <p>상품명</p>
-        <p>$40</p>
-        <p>1개</p>
-      </div>
-      <div className="cart-item">
-        <p>상품명</p>
-        <p>$40</p>
-        <p>1개</p>
-      </div>
+      {장바구니.map((item, i) => {
+        return (
+          <div key={i}>
+            <CartItem item={item} />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function CartItem(props: ItemType) {
+  return (
+    <div className="cart-item">
+      <p>{props.item}</p>
+      <p>$40</p>
+      <p>1개</p>
     </div>
   );
 }
