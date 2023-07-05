@@ -3,11 +3,11 @@ type ItemType = {
 };
 
 export default function Cart() {
-  let 장바구니 = ["Tomatoes", "Pasta", "coconut"];
+  let cart = ["Tomatoes", "Pasta", "coconut"];
   return (
     <div>
       <h4 className="title">Cart</h4>
-      {장바구니.map((item, i) => {
+      {cart.map((item, i) => {
         return (
           <div key={i}>
             <CartItem item={item} />
